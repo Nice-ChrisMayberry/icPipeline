@@ -1,7 +1,7 @@
 pipeline {
     agent any
     stages {
-        state('Run Unit Tests'){
+        stage('Run Unit Tests'){
             steps {
                 sh 'npm test'
             }
